@@ -179,10 +179,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">my/file/name.js</span>
-            <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
+            <span class="d2h-tag d2h-changed d2h-changed-tag">修改</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
@@ -223,10 +223,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">my/file/name.js</span>
-            <span class="d2h-tag d2h-added d2h-added-tag">ADDED</span></span>
+            <span class="d2h-tag d2h-added d2h-added-tag">新增</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
@@ -267,10 +267,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">my/file/name.js</span>
-            <span class="d2h-tag d2h-deleted d2h-deleted-tag">DELETED</span></span>
+            <span class="d2h-tag d2h-deleted d2h-deleted-tag">删除</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
@@ -311,10 +311,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">my/file/{name1.js → name2.js}</span>
-            <span class="d2h-tag d2h-moved d2h-moved-tag">RENAMED</span></span>
+            <span class="d2h-tag d2h-moved d2h-moved-tag">重命名</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
@@ -406,10 +406,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">sample</span>
-            <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
+            <span class="d2h-tag d2h-changed d2h-changed-tag">修改</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
@@ -480,10 +480,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">sample</span>
-            <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
+            <span class="d2h-tag d2h-changed d2h-changed-tag">修改</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
@@ -540,10 +540,10 @@ describe('LineByLineRenderer', () => {
             <svg aria-hidden="true" class="d2h-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12">
                 <path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z"></path>
             </svg>    <span class="d2h-file-name">sample</span>
-            <span class="d2h-tag d2h-changed d2h-changed-tag">CHANGED</span></span>
+            <span class="d2h-tag d2h-changed d2h-changed-tag">修改</span></span>
         <label class="d2h-file-collapse">
             <input class="d2h-file-collapse-input" type="checkbox" name="viewed" value="viewed">
-            Viewed
+            已查看
         </label>
             </div>
             <div class="d2h-file-diff">
